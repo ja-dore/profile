@@ -140,7 +140,7 @@ h1, h2, h3 {
 	background: blue;
 	-webkit-clip-path: path("M154.5,88.5 C131,113.5 62.5,110 30,89.5 C-2.5,69 -3.5,42 4.5,25.5 C12.5,9 33.5,-6 85,3.5 C136.5,13 178,63.5 154.5,88.5 Z");
 	clip-path: path("M154.5,88.5 C131,113.5 62.5,110 30,89.5 C-2.5,69 -3.5,42 4.5,25.5 C12.5,9 33.5,-6 85,3.5 C136.5,13 178,63.5 154.5,88.5 Z");
-	transition: clip-path 0.5s cubic-bezier(0.585, 2.5, 0.645, 0.55), -webkit-clip-path 0.5s cubic-bezier(0.585, 2.5, 0.645, 0.55), background 0.5s ease;
+	transition: clip-path 0.5s cubic-bezier(0.585, 2.5, 0.645, 0.55) -webkit-clip-path 0.5s cubic-bezier(0.585, 2.5, 0.645, 0.55);
 }
 
 .btn-seven:hover::before {
