@@ -21,6 +21,9 @@ body {
     line-height: 5px;
     text-align: left;
     width: 80%;
+    font-family: "Dawning of a New Day", serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   .movealittleright {
