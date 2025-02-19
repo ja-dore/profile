@@ -1,7 +1,4 @@
-
-
-
-  body {
+body {
     background-color: #F8CCED; /* Light Pink */
     font-family: "Roboto", sans-serif;
     color: #2200ff;
@@ -60,6 +57,7 @@ h1 {
     height: auto;
     border-radius: 0;
 }
+
 
 p {
     font-size: 10px;
