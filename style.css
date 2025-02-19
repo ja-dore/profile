@@ -20,7 +20,7 @@ body {
     margin: auto;
     padding: 5px;
     line-height: 5px;
-    text-align: left;
+    text-align: center;
     width: 80%;
     font-family: "Dawning of a New Day", serif;
     font-weight: 400;
@@ -136,6 +136,7 @@ h1, h2, h3 {
 
 .btn-seven::before {
 	content: '';
+  position: absolute;
 	background: blue;
 	-webkit-clip-path: path("M154.5,88.5 C131,113.5 62.5,110 30,89.5 C-2.5,69 -3.5,42 4.5,25.5 C12.5,9 33.5,-6 85,3.5 C136.5,13 178,63.5 154.5,88.5 Z");
 	clip-path: path("M154.5,88.5 C131,113.5 62.5,110 30,89.5 C-2.5,69 -3.5,42 4.5,25.5 C12.5,9 33.5,-6 85,3.5 C136.5,13 178,63.5 154.5,88.5 Z");
@@ -150,6 +151,7 @@ h1, h2, h3 {
 
 .btn-seven::after {
 	content: '';
+  position: absolute;
 	height: 86%;
 	width: 97%;
 	top: 5%;
