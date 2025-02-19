@@ -20,6 +20,13 @@ body {
 
 .header img {
     width: 120px;
+    display: block;
+}
+
+.header h1 {
+  display: block;
+  font-family: "Dawning of a New Day", serif;
+  font-size: 25px;
 }
 
 h1 {
