@@ -37,7 +37,7 @@ h1 {
     border-radius: 20px;
     font-size: 20px;
     color: #1a1a8f;
-    font-family: "Dawning of a New Day", serif;
+    /* font-family: "Dawning of a New Day", serif;*/
 }
 
 /* FLEXBOX for side-by-side layout */
