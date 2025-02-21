@@ -1,4 +1,4 @@
-/* let offset = -50;
+let offset = -50;
 function animateText() {
     offset += 0.25; // Increase offset
     if (offset > 110) offset = 0; // Loop back after full path
@@ -7,11 +7,12 @@ function animateText() {
 
     requestAnimationFrame(animateText);
 }
-animateText();*/
+animateText();
 
-const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
+const colors = ["#f85f35", "#e17b5e", "#F85F36"];
 
-const numBalls = 50;
+const numBalls = 100
+;
 const balls = [];
 
 for (let i = 0; i < numBalls; i++) {
