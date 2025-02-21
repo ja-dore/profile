@@ -16,33 +16,51 @@ body {
 .header {
     text-align: center;
     align-items: center;
-    flex-direction: column;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+.header p{
+    margin: 0;
+}
+.speelplaats{
+    width: 40%;
+    max-width: 300px;
+    padding: 0px 10px 0px 10px;
 }
 
-.header img {
-    width: 120px;
+.speelplaats path {  
+    fill: #09096e !important;
 }
 
-.header h1 {
-  font-family: "bimbo-pro", serif;
-  font-size: 25px;
+.anna {
+    width: 20%;
+    max-width: 100px;
+    padding: 40px 40px 20px 40px;
 }
 
 h1 {
     font-size: 24px;
     color: #1a1a8f; 
 }
+#movingtext {
+    transform:translate3d(0,0,0); 
+    z-index: 1000; 
+    fill: #FE0101; 
+}
 
-.highlight {
-    background-color: #ffe4f0; 
+.subtitel{
     display: inline-block;
-    padding: 5px 15px;
-    border-radius: 20px;
+    padding: 5px 20px;
+    border-radius: 40px;
     font-size: 20px;
     color: #1a1a8f;
     font-family: "Playwrite ES Guides", serif;
+    width: 35%;
+    background-color: #B0AFF5;
 }
+.subtitel path{
+    fill:#1a1a8f;
+}
+
 
 /* FLEXBOX for side-by-side layout */
 .section {
@@ -50,24 +68,28 @@ h1 {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    margin: 40px 0;
+    margin: 0px 0px 0px 20px;
     padding: 20px;
     border-radius: 10px;
+}
+
+#text-path {
+    color: #1a1a8f;
 }
 
 .text {
     flex: 1; /* Allows text to take available space */
 }
 
-.image {
-    width: 50px; /* Adjust for better scaling */
-    height: auto;
+.sideimage {
+    width: 25%; /*just for better scaling */
     border-radius: 0;
+    padding: 10px; 
 }
 
 .quote {
   font-family: "alconica", serif;
-  font-style: normal;
+  font-style: italic;
   font-weight: 400;
   color: #CC9681;
 }
@@ -107,44 +129,7 @@ li {
 .footer {
     text-align: center;
     font-size: 14px;
-    color: #777;
+    color:  #09096e;
     margin-top: 20px;
 }
 
-.btn-seven {
-	width: 175px;
-	height: 120px;
-	color: white;
-}
-
-.btn-seven::before {
-	content: '';
-  position: absolute;
-	background: blue;
-	-webkit-clip-path: path("M154.5,88.5 C131,113.5 62.5,110 30,89.5 C-2.5,69 -3.5,42 4.5,25.5 C12.5,9 33.5,-6 85,3.5 C136.5,13 178,63.5 154.5,88.5 Z");
-	clip-path: path("M154.5,88.5 C131,113.5 62.5,110 30,89.5 C-2.5,69 -3.5,42 4.5,25.5 C12.5,9 33.5,-6 85,3.5 C136.5,13 178,63.5 154.5,88.5 Z");
-	transition: clip-path 0.5s cubic-bezier(0.585, 2.5, 0.645, 0.55) -webkit-clip-path 0.5s cubic-bezier(0.585, 2.5, 0.645, 0.55);
-}
-
-.btn-seven:hover::before {
-	background: white;
-	-webkit-clip-path: path("M143,77 C117,96 74,100.5 45.5,91.5 C17,82.5 -10.5,57 5.5,31.5 C21.5,6 79,-5.5 130.5,4 C182,13.5 169,58 143,77 Z");
-	clip-path: path("M143,77 C117,96 74,100.5 45.5,91.5 C17,82.5 -10.5,57 5.5,31.5 C21.5,6 79,-5.5 130.5,4 C182,13.5 169,58 143,77 Z");
-}
-
-.btn-seven::after {
-	content: '';
-  position: absolute;
-	height: 86%;
-	width: 97%;
-	top: 5%;
-	border-radius: 58% 42% 55% 45% / 56% 45% 55% 44%;
-	border: 1px solid white;
-	transform: rotate(-20deg);
-	z-index: -1;
-	transition: transform 0.5s cubic-bezier(0.585, 2.5, 0.645, 0.55);
-}
-
-.btn-seven:hover::after {
-	transform: translate3d(0,-5px,0);
-}
