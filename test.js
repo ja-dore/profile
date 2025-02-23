@@ -50,3 +50,11 @@ balls.forEach((el, i, ra) => {
     }
   );
 });
+
+let icons = ["images/Favicon1.png", "images/Favicon2.png"];
+let i = 0;
+
+setInterval(() => {
+  document.querySelector("link[rel='icon']").href = icons[i];
+  i = (i + 1) % icons.length;
+}, 500); 
