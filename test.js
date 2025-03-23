@@ -1,15 +1,4 @@
-let offset = -50;
-function animateText() {
-    offset += 0.25; // Increase offset
-    if (offset > 110) offset = 0; // Loop back after full path
-
-    document.getElementById("text-path").setAttribute("startOffset", offset + "%");
-
-    requestAnimationFrame(animateText);
-}
-animateText();
-
-const colors = ["#f85f35", "#e17b5e", "#F85F36"];
+const colors = ["#ff0000", "#bc9bff"];
 
 const numBalls = 100
 ;
@@ -51,7 +40,9 @@ balls.forEach((el, i, ra) => {
   );
 });
 
-let icons = ["images/Favicon1.png", "images/Favicon2.png"];
+
+//favicoms animeren
+let icons = ["images/anna1.png", "images/anna2.png"];
 let i = 0;
 
 setInterval(() => {

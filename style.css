@@ -1,7 +1,7 @@
 body {
-    background-color: #F8CCED; /* Light Pink */
+    background-color: #FECDDC; /* Light Pink */
     font-family: "aileron", serif;
-    color: #2200ff;
+    color: #222fe6;
     margin: 0;
     padding: 0;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .speelplaats path {  
-    fill: #09096e !important;
+    fill: #222fe6 !important;
 }
 
 .anna {
@@ -39,7 +39,7 @@ body {
 
 h1 {
     font-size: 24px;
-    color: #1a1a8f; 
+    color: #222fe6; 
 }
 #movingtext {
     transform:translate3d(0,0,0); 
@@ -52,13 +52,13 @@ h1 {
     padding: 5px 20px;
     border-radius: 40px;
     font-size: 20px;
-    color: #1a1a8f;
+    color: #222fe6;
     font-family: "Playwrite ES Guides", serif;
     width: 35%;
     background-color: #B0AFF5;
 }
 .subtitel path{
-    fill:#1a1a8f;
+    fill: #222fe6;
 }
 
 
@@ -74,7 +74,7 @@ h1 {
 }
 
 #text-path {
-    color: #1a1a8f;
+    color: #222fe6;
 }
 
 .text {
@@ -84,7 +84,7 @@ h1 {
 .sideimage {
     width: 25%; /*just for better scaling */
     border-radius: 0;
-    padding: 10px; 
+    padding: 50px; 
 }
 
 .quote {
@@ -92,6 +92,7 @@ h1 {
   font-style: italic;
   font-weight: 400;
   color: #CC9681;
+  font-size: 15px;
 }
 
 
